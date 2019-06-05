@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Entities>
+    <ExtensionPackages>
+        <ExtensionPackage dependsOn="" description="Vis.JS graph widget to display printer timeline in printer timezone" minimumThingWorxVersion="8.3.0" name="TimelineExtension" packageVersion="1.0.5" vendor="3D Systems"> 
+        </ExtensionPackage>
+    </ExtensionPackages>
+    <Widgets>
+        <Widget name="timelinewidget">
+            <UIResources>
+                <FileResource description="" file="timelinewidget.ide.js" isDevelopment="true" isRuntime="false" type="JS"/>
+                <FileResource description="" file="timelinewidget.ide.css" isDevelopment="true" isRuntime="false" type="CSS"/>
+                <FileResource description="" file="timelinewidget.runtime.js" isDevelopment="false" isRuntime="true" type="JS"/>
+                <FileResource description="" file="timelinewidget.runtime.css" isDevelopment="false" isRuntime="true" type="CSS"/>
+                <FileResource description="" file="moment.min.js" isDevelopment="false" isRuntime="true" type="JS"/>
+                <FileResource description="" file="vis.js" isDevelopment="false" isRuntime="true" type="JS"/>
+                <FileResource description="" file="vis.css" isDevelopment="false" isRuntime="true" type="CSS"/>
+                <FileResource description="" file="vis.min.js" isDevelopment="false" isRuntime="true" type="JS"/>
+                <FileResource description="" file="vis.min.css" isDevelopment="false" isRuntime="true" type="CSS"/>
+            </UIResources>
+        </Widget>
+    </Widgets>
+</Entities>
