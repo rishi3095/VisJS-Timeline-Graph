@@ -107,7 +107,10 @@ TW.Runtime.Widgets.timelinewidget = function () {
 			selectable: false,
 			moment: function (date) {
 				return vis.moment(date).utcOffset(off) //shift the timeline with specified timezone offset
-			}
+			},
+			tooltip: {
+				followMouse: true
+			  }
 		};
 	};
 };

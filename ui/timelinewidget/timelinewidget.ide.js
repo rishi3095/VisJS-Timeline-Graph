@@ -24,13 +24,6 @@ TW.IDE.Widgets.timelinewidget = function () {
                     'baseType': 'NUMBER',
                     'isVisible': true
                 },
-                'TimeZoneOffset' :{
-                    'description': 'Display graph in following timezone',
-                    'baseType': 'STRING',
-                    'isBindingTarget': true,
-                    'defaultValue': '',
-                    'isVisible':true,
-                },
 				'TimePeriodStartField': 
             	{
                     'description': "Field that denotes the start of each time period",
